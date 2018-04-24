@@ -29,7 +29,7 @@ public class fotoYangBaru extends android.support.v4.app.Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        //Inisialisasi semua objek
+        //Inisialisasi semua objekkk
         View v = inflater.inflate(R.layout.activity_foto_home_new, container, false);
         rv = v.findViewById(R.id.rvhometerbaru);
         list = new ArrayList<>();
