@@ -21,10 +21,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegisterUserActivity" />
-        <activity
-            android:name=".fotoHome" />
+        <activity android:name=".fotoHome" />
         <activity android:name=".PostActivity" />
         <activity android:name=".CommentActivity" />
+        <activity android:name=".fotoYangBaru"></activity>
     </application>
 
 </manifest>

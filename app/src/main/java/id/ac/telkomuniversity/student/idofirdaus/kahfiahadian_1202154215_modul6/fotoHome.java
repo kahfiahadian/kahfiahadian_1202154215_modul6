@@ -55,6 +55,7 @@ public class fotoHome extends AppCompatActivity {
         //set tulisan pada tab
         tab.getTabAt(0).setText("TERBARU");
         tab.getTabAt(1).setText("FOTO PRIBADI");
+        tab.getTabAt(2).setText("uji coba");
         tab.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
@@ -107,6 +108,7 @@ public class fotoHome extends AppCompatActivity {
         //menambah fragment pada adapter
         adapter.addFragment(new fotoHomeNew(), "TERBARU");
         adapter.addFragment(new fotoHomeUser(),"SAYA");
+        adapter.addFragment(new fotoHomeUser(),"coba aja");
 
         //setAdapter ViewPager pada adapter
         v.setAdapter(adapter);
